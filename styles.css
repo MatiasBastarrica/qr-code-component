@@ -1,0 +1,73 @@
+/* ### CSS RESET ### */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  --spacer: 1rem;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: var(--slate-300);
+}
+
+/* ### QR COMPONENT ### */
+
+.container {
+  min-height: 96vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+article.qr-component {
+  background-color: var(--white);
+  width: 100%;
+  max-width: 330px;
+  padding: 1rem 1rem 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 5px 20px 20px var(--slate-300);
+}
+
+.qr-img {
+  border-radius: 8px;
+}
+
+.qr-title {
+  color: var(--slate-900);
+  margin-top: var(--spacer);
+}
+
+.qr-description {
+  color: var(--slate-500);
+  margin-top: var(--spacer);
+}
+
+.qr-title,
+.qr-description {
+  padding: 0 1rem;
+}
+
+.attribution {
+  padding-bottom: 0.5rem;
+}
