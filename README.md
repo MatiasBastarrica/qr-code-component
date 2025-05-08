@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Qr code coponent Solution](https://www.frontendmentor.io/solutions/qr-component-using-flexbox-YVzp-tyyd-)
+- Live Site URL: [Qr code component Site](https://matiasbastarrica.github.io/qr-code-component/)
 
 ## My process
 
@@ -38,7 +38,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 One of my major learnings was the centering of an element across both vertically and horizontally. The combination of flexbox and a fixed width on the container helped me achieve this task.
 
-In this project I wanted to keep the default attribution section that frontendmentor provides, but I realized later on in the development that this element braught me troubles when I was trying to center my qr-component. Because I was using the body as my flex-container, both the attribuiton element and the qr-component were the flex-items. This made the centering of the qr-component in the center of the viewport a difficult task because I couldn't position the attribution element at the bottom of the page. In order to solve this I decided to wrap my qr-component in a div with a class of "container" and instead of the body, this div would be my flex-container.
+In this project I wanted to keep the default attribution section that frontendmentor provides, but I realized later on in the development that this element got me into trouble when I was trying to center my qr-component. Because I was using the body as my flex-container, both the attribuiton element and the qr-component were the flex-items. This made the centering of the qr-component in the center of the viewport a difficult task because I couldn't position the attribution element at the bottom of the page. In order to solve this I decided to wrap my qr-component in a div with a class of "container" and instead of the body, this div would be my flex-container.
 
 ### Continued development
 
@@ -54,4 +54,4 @@ I would like to continue practice using flexbox in my future projects.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MatiasBastarrica)
+- Frontend Mentor - [@MatiasBastarrica](https://www.frontendmentor.io/profile/MatiasBastarrica)
